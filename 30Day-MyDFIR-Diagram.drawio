@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="190" width="570" height="570" as="geometry" />
+          <mxGeometry x="70" y="150" width="570" height="610" as="geometry" />
         </mxCell>
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-3" value="Windows Server&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RDP Enabled&lt;/span&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="540" y="270" width="46.5" height="63" as="geometry" />
@@ -71,6 +71,32 @@
           <mxGeometry x="-0.0369" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kIjpzPa-yHcZM0qlbKD9-25" target="kIjpzPa-yHcZM0qlbKD9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-25" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="170" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kIjpzPa-yHcZM0qlbKD9-26" target="kIjpzPa-yHcZM0qlbKD9-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-32" value="Connect to Elastic Kibana via WEB GUI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kIjpzPa-yHcZM0qlbKD9-31">
+          <mxGeometry x="-0.2744" y="-1" relative="1" as="geometry">
+            <mxPoint x="22" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-26" value="SOC Analyst Laptop" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="35" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-27" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="27.5" width="95" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kIjpzPa-yHcZM0qlbKD9-27" target="kIjpzPa-yHcZM0qlbKD9-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-34" value="Attack Laptop&lt;div&gt;Kali Linux&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="698.25" y="40" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
