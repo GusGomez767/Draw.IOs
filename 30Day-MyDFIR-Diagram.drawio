@@ -5,28 +5,31 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="200" width="460" height="320" as="geometry" />
+          <mxGeometry x="70" y="190" width="510" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="kIjpzPa-yHcZM0qlbKD9-1" value="Fleet Servers" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="307" width="46.5" height="63" as="geometry" />
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-1" value="Fleet Servers" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#d5e8d4;strokeColor=#304226;" vertex="1" parent="1">
+          <mxGeometry x="307" y="513" width="46.5" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="kIjpzPa-yHcZM0qlbKD9-2" value="Ubuntu Server&lt;div&gt;SSH Enabled&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="298.5" y="307" width="46.5" height="63" as="geometry" />
-        </mxCell>
-        <mxCell id="kIjpzPa-yHcZM0qlbKD9-3" value="Windows Server&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RDP Enabled&lt;/span&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="307" width="46.5" height="63" as="geometry" />
-        </mxCell>
-        <mxCell id="kIjpzPa-yHcZM0qlbKD9-4" value="Elastic &amp;amp; Kibana" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="307" width="46.5" height="63" as="geometry" />
-        </mxCell>
-        <mxCell id="kIjpzPa-yHcZM0qlbKD9-5" value="os Ticket Server" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="440" y="307" width="46.5" height="63" as="geometry" />
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-3" value="Windows Server&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RDP Enabled&lt;/span&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="450" y="270" width="46.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-6" value="C2 Server" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#FF8E78;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="710" y="187" width="46.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-10" value="VULTR" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="120" y="220" width="60" height="30" as="geometry" />
+          <mxGeometry x="110" y="203.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-11" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="430" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-4" value="Elastic &amp;amp; Kibana" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#dae8fc;strokeColor=#415573;" vertex="1" parent="kIjpzPa-yHcZM0qlbKD9-11">
+          <mxGeometry x="191.75" y="30" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-5" value="os Ticket Server" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="kIjpzPa-yHcZM0qlbKD9-11">
+          <mxGeometry x="340" y="273" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-2" value="Ubuntu Server&lt;div&gt;SSH Enabled&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="kIjpzPa-yHcZM0qlbKD9-11">
+          <mxGeometry x="40" y="273" width="46.5" height="63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
