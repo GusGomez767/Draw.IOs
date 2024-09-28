@@ -5,25 +5,28 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="230" width="520" height="260" as="geometry" />
+          <mxGeometry x="90" y="200" width="460" height="320" as="geometry" />
         </mxCell>
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-1" value="Fleet Servers" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="450" y="337" width="46.5" height="63" as="geometry" />
+          <mxGeometry x="370" y="307" width="46.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-2" value="Ubuntu Server&lt;div&gt;SSH Enabled&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="378.5" y="337" width="46.5" height="63" as="geometry" />
+          <mxGeometry x="298.5" y="307" width="46.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-3" value="Windows Server&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RDP Enabled&lt;/span&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="300" y="337" width="46.5" height="63" as="geometry" />
+          <mxGeometry x="220" y="307" width="46.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-4" value="Elastic &amp;amp; Kibana" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="337" width="46.5" height="63" as="geometry" />
+          <mxGeometry x="150" y="307" width="46.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="kIjpzPa-yHcZM0qlbKD9-5" value="os Ticket Server" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="337" width="46.5" height="63" as="geometry" />
+          <mxGeometry x="440" y="307" width="46.5" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="kIjpzPa-yHcZM0qlbKD9-6" value="C2 Server" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="590" y="337" width="46.5" height="63" as="geometry" />
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-6" value="C2 Server" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#FF8E78;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="710" y="187" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="kIjpzPa-yHcZM0qlbKD9-10" value="VULTR" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
